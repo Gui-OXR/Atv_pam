@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo de onmouseover</title>
+        <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div id="box" onmouseover="mudarCor()"></div>
+
+        <input type="text" onfocus="destacar(this)" onblur="removerDestaque(this)" placeholder="Digite aqui...">
+
+        <select onchange="mostrarSelecao(this)">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
+        
+        <p id="mensagem"></p>
+    </body>
+
+</html>

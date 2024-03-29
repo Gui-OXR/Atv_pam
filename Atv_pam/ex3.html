@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Atv JS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Atv de pam sobre js">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Guilherme e Amon">
+        <link rel="icon" type="image/x-icon" href="...">
+        <script type="text/javascript" src="js/index.js"></script>
+        <style>
+            div {
+                border: 1px solid black;
+                padding:8px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p id="demo">Parágrafo de exemplo</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Exemplo DOM Id"'>DOM</button>
+
+        <ul>
+            <li>Posição 0</li>
+            <li>Posição 1</li>
+        </ul>
+        <button onclick="Pst0()">Posição 0</button>
+        <button onclick="Pst1()">Posição 1</button>
+
+        <ul class="example">
+            <li class="child">Coffee</li>
+            <li class="child">Tea</li>
+        </ul>
+        <button onclick="Cn()">ClassName</button>
+    </body>
+
+</html>
